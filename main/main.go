@@ -1,10 +1,7 @@
 package main
 
-import (
-	"the-little-go-book/ch1"
-)
+import "the-little-go-book/ch2"
 
 func main() {
-	// ch1.Running_go_code()
-	ch1.Variables_and_declarations()
+	ch2.NewSaiyanOverloaded()
 }
