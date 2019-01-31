@@ -1,17 +1,17 @@
 package main
 
 import (
-	"fmt"
-	"the-little-go-book/ch5"
+	"the-little-go-book/ch6"
 )
 
 func main() {
-	// ch5.Consider_the_strconv_way()
-	// fmt.Println(ch5.Show_me_initialized_if_example())
-	// fmt.Println(ch5.Add(1, 2))
-	// fmt.Println(ch5.Convert_and_then_add(1, 2))
-	// fmt.Println(ch5.Convert_array_of_bytes_to_string(ch5.Convert_string_to_array_of_bytes("Hello world")))
-	// fmt.Println(ch5.Strings_are_made_of_runes())
-	// ch5.Iterating_over_a_string_produces_runes()
-	fmt.Println(ch5.Do_the_math(3, 4))
+	// ch6.Goroutine_example()
+	// ch6.Goroutine_anonymous_function_example()
+	// ch6.Unsynchronized_example()
+	// ch6.Deadlock_example()
+	// ch6.Initialize_workers_and_give_them_work_to_do()
+	// ch6.Initialize_workers_and_give_them_work_to_do_using_a_buffered_channel()
+	// ch6.Initialize_workers_and_give_them_work_to_do_using_select()
+	// ch6.Initialize_workers_and_give_them_work_to_do_using_select_and_with_a_timeout()
+	ch6.Initialize_workers_and_give_them_work_to_do_using_select_with_a_default_and_with_a_timeout()
 }
